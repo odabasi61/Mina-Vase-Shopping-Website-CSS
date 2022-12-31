@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0 auto;
+  line-height: 1;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem 16rem;
+  font-size: 2rem;
+  align-items: center;
+}
+span {
+  font-size: 3rem;
+  padding: 3rem 16rem;
+  font-weight: bold;
+}
+.bag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bag-icon {
+  height: 24px;
+  width: 24px;
+}
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.section1 {
+  background-image: url("1-\ section1/section1.jpg");
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+h1 {
+  font-size: 7rem;
+  padding-top: 20rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.sec1 {
+  font-size: 2.5rem;
+  padding: 4rem;
+  color: #fff;
+}
+.btn-sec1 {
+  width: 14rem;
+  height: 6rem;
+  color: rgb(86, 52, 104);
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
+}
+
+h2 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 6rem;
+  color: rgb(55, 30, 68);
+}
+
+h4 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.price {
+  font-size: 2rem;
+  padding: 5px;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.sec2 {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ara {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.asd {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-buy {
+  width: 14rem;
+  height: 6rem;
+  color: rgb(86, 52, 104);
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: 2px solid rgb(86, 52, 104);
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.section3 {
+  background-image: url(/img/section3.jpg);
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+.section4 {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+h3 {
+  font-size: 4rem;
+  padding: 1rem;
+  color: rgb(86, 52, 104);
+}
+
+.sec4-p {
+  font-size: 2rem;
+  padding: 1rem;
+  color: rgb(86, 52, 104);
+}
+
+.btn-sec4 {
+  font-size: 1.6rem;
+  width: 14rem;
+  height: 4.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: rgb(86, 52, 104);
+  cursor: pointer;
+}
+
+.section5 {
+  background-image: url(img/section5.jpg);
+  background-size: auto;
+  height: 600px;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.email {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  width: 40rem;
+  height: 5rem;
+  border: none;
+  padding-left: 1rem;
+}
+
+.sec6 {
+  color: rgb(86, 52, 104);
+  font-size: 5rem;
+  text-align: center;
+  margin-top: -20rem;
+}
+
+.sec6-img {
+  display: flex;
+  gap: 4rem;
+  margin: 6rem;
+  justify-content: center;
+}
+
+.ins-div {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.ins:link,
+.ins:visited {
+  color: rgb(86, 52, 104);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 7rem;
+  background-color: rgb(192, 196, 201);
+}
+
+.footer-nav {
+  padding-right: 20rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.ikonlar {
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  position: relative;
+}
+
+@media (max-width: 79em) {
+  .img img {
+    width: 95%;
+    height: 95%;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-nav {
+    padding-right: 10rem;
+    font-size: 1.8rem;
+  }
+  .section1 h1 {
+    font-size: 6rem;
+  }
+  .btn-sec1 {
+    width: 12rem;
+    height: 5rem;
+  }
+  .btn-buy {
+    width: 12rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    margin-top: 6rem;
+  }
+  .sec2 {
+    gap: 2rem;
+  }
+  .section2 h2 {
+    font-size: 4rem;
+  }
+  .section2 h4 {
+    font-size: 2.2rem;
+  }
+  .section2 p {
+    font-size: 1.8rem;
+  }
+  .section3 h1 {
+    font-size: 6rem;
+  }
+  .section4 {
+    gap: 2rem;
+  }
+  .sec4-img img {
+    width: 90%;
+    height: 90%;
+  }
+  .sec4-img {
+    display: flex;
+    justify-content: center;
+  }
+  .sec4-div2 {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .section4 h3 {
+    font-size: 3rem;
+  }
+  .section4 p {
+    font-size: 1.7rem;
+  }
+  .btn-sec4 {
+    width: 12rem;
+    height: 4.5rem;
+  }
+  .section5 h1 {
+    font-size: 6rem;
+  }
+  .sec6-img div img {
+    width: 90%;
+    height: 90%;
+  }
+  .sec6-img div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec6 {
+    font-size: 4rem;
+  }
+  .ins-div {
+    font-size: 3.5 rem;
+  }
+  .footer-nav {
+    padding-right: 15rem;
+    font-size: 1.8rem;
+  }
+  span {
+    font-size: 2.5rem;
+    padding-left: 10rem;
+  }
+}
+@media (max-width: 61em) {
+  .img img {
+    width: 90%;
+    height: 90%;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-nav {
+    padding-right: 6rem;
+    font-size: 1.5rem;
+  }
+  .section1 {
+    height: 80%;
+  }
+  .section1 h1 {
+    font-size: 4rem;
+    padding-top: 8rem;
+  }
+  .sec1-div {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+  .btn-sec1 {
+    width: 9rem;
+    height: 3.5rem;
+  }
+  .btn-buy {
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+  }
+  .sec2 {
+    gap: 1.5rem;
+  }
+  .section2 h2 {
+    font-size: 3rem;
+  }
+  .section2 h4 {
+    font-size: 1.8rem;
+  }
+  .section2 p {
+    font-size: 1.5rem;
+  }
+  .section3 {
+    height: 80%;
+  }
+  .section3 h1 {
+    font-size: 4rem;
+    padding-top: 8rem;
+  }
+  .sec3-div {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+  .section4 {
+    gap: 1rem;
+  }
+  .sec4-img img {
+    width: 80%;
+    height: 80%;
+  }
+  .sec4-img {
+    display: flex;
+    justify-content: center;
+  }
+  .sec4-div2 {
+    width: 80%;
+    margin-left: 4rem;
+  }
+  .section4 h3 {
+    font-size: 2.4rem;
+  }
+  .section4 p {
+    font-size: 1.4rem;
+  }
+  .btn-sec4 {
+    width: 9rem;
+    height: 3.5rem;
+  }
+  .section5 h1 {
+    font-size: 4rem;
+    padding-top: 8rem;
+  }
+  .section5 {
+    height: 80%;
+    align-items: flex-start;
+  }
+  .sec5-div {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+  .email {
+    width: 32rem;
+    height: 3.5rem;
+  }
+  .sec6-img {
+    margin: 0;
+  }
+  .sec6-img div img {
+    width: 90%;
+    height: 90%;
+  }
+  .sec6-img div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec6 {
+    font-size: 3rem;
+  }
+  .ins-div {
+    font-size: 2.4 rem;
+  }
+  .footer-nav {
+    padding-right: 6rem;
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 1.8rem;
+    padding-left: 6rem;
+  }
+}
