@@ -7,23 +7,22 @@ html {
   font-size: 62.5%;
 }
 body {
-  margin: 0 auto;
   line-height: 1;
+  width: 100%;
 }
 .main-header {
   display: flex;
   justify-content: space-between;
+  padding: 3vh 14vh;
 }
 .main-nav {
   display: flex;
   gap: 3rem;
-  padding: 3rem 16rem;
   font-size: 2rem;
   align-items: center;
 }
 span {
   font-size: 3rem;
-  padding: 3rem 16rem;
   font-weight: bold;
 }
 .bag {
@@ -32,8 +31,8 @@ span {
   align-items: center;
 }
 .bag-icon {
-  height: 24px;
-  width: 24px;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 a:link,
 a:visited {
@@ -49,85 +48,87 @@ a:active {
 .section1 {
   background-image: url("1-\ section1/section1.jpg");
   background-size: cover;
-  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
   text-align: center;
 }
-h1 {
+.sec1-div h1,
+.sec3-div h1,
+.sec5-div h1 {
   font-size: 7rem;
-  padding-top: 20rem;
+  padding-top: 20vh;
   color: #fff;
   letter-spacing: 3px;
 }
 .sec1 {
   font-size: 2.5rem;
-  padding: 4rem;
+  padding: 4vh 0 8vh;
   color: #fff;
 }
+.sec1-div a,
+.sec3-div a,
 .btn-sec1 {
-  width: 14rem;
-  height: 6rem;
+  background-color: rgb(255, 255, 255, .7);
+  text-decoration: none;
+  padding: 2rem 3rem;
   color: rgb(86, 52, 104);
   font-size: 1.8rem;
-  cursor: pointer;
   border: none;
 }
 
+.section2 {text-align: center;}
+
 h2 {
   font-size: 4.5rem;
-  text-align: center;
-  margin: 6rem;
+  padding: 8vh 0;
   color: rgb(55, 30, 68);
 }
 
 h4 {
   font-size: 2.5rem;
   padding: 0.5rem;
-  text-align: center;
 }
 
 .price {
   font-size: 2rem;
-  padding: 5px;
-  text-align: center;
-}
-
-.img {
-  width: 100%;
+  padding: 0.5rem;
 }
 
 .sec2 {
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   justify-content: center;
-  margin: 0 auto;
+  
 }
 
 .ara {
   display: flex;
   flex-direction: column;
-  width: 25rem;
-}
-
-.asd {
-  display: flex;
-  justify-content: center;
+  width: 20%;
 }
 
 .btn-buy {
-  width: 14rem;
-  height: 6rem;
+  padding: 10vh;
+}
+
+.btn-buy a {
+  background-color: rgb(255, 255, 255, .7);
+  text-decoration: none;
+  padding: 2rem 3rem;
   color: rgb(86, 52, 104);
   font-size: 1.8rem;
-  cursor: pointer;
   border: 2px solid rgb(86, 52, 104);
-  margin-top: 8rem;
-  margin-bottom: 8rem;
 }
 
 .section3 {
   background-image: url(/img/section3.jpg);
   background-size: cover;
-  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
   text-align: center;
 }
 
@@ -135,8 +136,7 @@ h4 {
   display: flex;
   gap: 5rem;
   justify-content: center;
-  margin: 0 auto;
-  margin-top: 10rem;
+  padding: 10vh 0;
 }
 
 h3 {
@@ -147,35 +147,38 @@ h3 {
 
 .sec4-p {
   font-size: 2rem;
-  padding: 1rem;
+  padding: 1rem 1rem 4rem;
   color: rgb(86, 52, 104);
 }
 
-.btn-sec4 {
+.sec4-div2 a {
   font-size: 1.6rem;
-  width: 14rem;
-  height: 4.5rem;
+  font-weight: bold;
+  background-color: rgba(175, 155, 163, 0.7);
+  text-decoration: none;
+  padding: 1.5rem 2.5rem;
   margin-left: 1rem;
   margin-top: 1rem;
   color: rgb(86, 52, 104);
-  cursor: pointer;
 }
 
 .section5 {
   background-image: url(img/section5.jpg);
-  background-size: auto;
-  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
   text-align: center;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin: 5vh 0;
 }
 
 .email {
-  margin-top: 5rem;
-  margin-bottom: 4rem;
-  width: 40rem;
-  height: 5rem;
+  margin: 5vh 0;
+  width: 50vh;
+  height: 6vh;
   border: none;
+  outline: none;
   padding-left: 1rem;
 }
 
@@ -183,20 +186,22 @@ h3 {
   color: rgb(86, 52, 104);
   font-size: 5rem;
   text-align: center;
-  margin-top: -20rem;
+}
+
+.sec6 {
+  padding: 2rem 0 5rem;
 }
 
 .sec6-img {
   display: flex;
   gap: 4rem;
-  margin: 6rem;
   justify-content: center;
 }
 
 .ins-div {
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 4rem;
+  margin: 4rem 0;
 }
 
 .ins:link,
@@ -208,12 +213,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 7rem;
+  padding: 4rem;
   background-color: rgb(192, 196, 201);
 }
 
 .footer-nav {
-  padding-right: 20rem;
   display: flex;
   gap: 3rem;
   font-size: 2rem;
@@ -221,14 +225,14 @@ h3 {
 }
 
 .ikonlar {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 footer {
   position: relative;
 }
-
+/* 
 @media (max-width: 79em) {
   .img img {
     width: 95%;
@@ -451,4 +455,4 @@ footer {
     font-size: 1.8rem;
     padding-left: 6rem;
   }
-}
+} */
