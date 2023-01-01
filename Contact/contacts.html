@@ -21,10 +21,12 @@
                       <a href="../Cart/cart.html">Cart (0)</a></div>
               </nav>
     </header>
+
     <section class="section1">
-        <img src="contact.avif" alt="" width="100%">
+        
         <h1 class="sec1-h">Contact us</h1>
     </section>
+
     <section class="section2">
         <div class="div1">
             <h1 class="sec2-h">Headquarters</></h1>
@@ -36,43 +38,37 @@
             <span class="sec2-s">Reach out to collaborate at</span>
             <span class="sec2-s">collab@mina.com</span>
         </div>
+
         <div class="div2">
             <h1 class="sec2-h">Inquiries</h1>
             <form action="">
                 <div class="div2-d">
-                <span class="div2-s">Name*</span>
-                <label for="">
-                <input class="inp" type="text" placeholder="Your name">
-                </label>
-            </div>
-            <form action="">
+                <label for="name">Name*</label>
+                <input class="inp" id="name" type="text" placeholder="Your name">
+                </div>
+
                 <div class="div2-d">
-                <span class="div2-s">Last name*</span>
-                <label for="">
-                <input class="inp" type="text" placeholder="Your last name">
-                </label>
-            </div>
-            <form action="">
+                <label for="last">Last name*</label>
+                <input class="inp" id="last" type="text" placeholder="Your last name">
+                </div>
+
                 <div class="div2-d">
-                <span class="div2-s">Email*</span>
-                <label for="">
-                <input class="inp" type="email" placeholder="Your email address">
-                </label>
-            </div>
-            <form action="">
+                <label for="email">Email*</label>
+                <input class="inp" id="email" type="email" placeholder="Your email address">
+                </div>
+
                 <div class="div2-d">
-                <span class="div2-s">Message*</span>
-                <label for="">
-                <input class="inp" type="tet" placeholder="Enter your message">
-                </label>
-            </div>
+                <label for="message">Message*</label>
+                <textarea class="inp" name="message" id="message" placeholder="Enter your message"></textarea>
+                </div>
             <button class="sbm">Submit</button>
             </form>
         </div>
     </section>
+
     <footer>
         <div class="footer-div">
-            <span class="f-s">MINA</span>
+            <a href=""><span class="f-s">MINA</span></a>
             <nav class="footer-nav">
                     <a href="../Payment/payment.html">Payments&Delivery</a>
                     <a href="../Returns/returns.html">Returns</a>
