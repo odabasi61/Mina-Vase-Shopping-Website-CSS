@@ -13,6 +13,7 @@ body {
 .main-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 3vh 14vh;
 }
 .main-nav {
@@ -70,7 +71,7 @@ a:active {
 .sec1-div a,
 .sec3-div a,
 .btn-sec1 {
-  background-color: rgb(255, 255, 255, .7);
+  background-color: rgb(255, 255, 255, 0.7);
   text-decoration: none;
   padding: 2rem 3rem;
   color: rgb(86, 52, 104);
@@ -78,7 +79,9 @@ a:active {
   border: none;
 }
 
-.section2 {text-align: center;}
+.section2 {
+  text-align: center;
+}
 
 h2 {
   font-size: 4.5rem;
@@ -100,7 +103,6 @@ h4 {
   display: flex;
   gap: 4rem;
   justify-content: center;
-  
 }
 
 .ara {
@@ -114,7 +116,7 @@ h4 {
 }
 
 .btn-buy a {
-  background-color: rgb(255, 255, 255, .7);
+  background-color: rgb(255, 255, 255, 0.7);
   text-decoration: none;
   padding: 2rem 3rem;
   color: rgb(86, 52, 104);
@@ -186,9 +188,6 @@ h3 {
   color: rgb(86, 52, 104);
   font-size: 5rem;
   text-align: center;
-}
-
-.sec6 {
   padding: 2rem 0 5rem;
 }
 
@@ -223,236 +222,3 @@ h3 {
   font-size: 2rem;
   text-decoration: underline;
 }
-
-.ikonlar {
-  width: 2.4rem;
-  height: 2.4rem;
-}
-
-footer {
-  position: relative;
-}
-/* 
-@media (max-width: 79em) {
-  .img img {
-    width: 95%;
-    height: 95%;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-nav {
-    padding-right: 10rem;
-    font-size: 1.8rem;
-  }
-  .section1 h1 {
-    font-size: 6rem;
-  }
-  .btn-sec1 {
-    width: 12rem;
-    height: 5rem;
-  }
-  .btn-buy {
-    width: 12rem;
-    height: 5rem;
-    font-size: 1.6rem;
-    margin-top: 6rem;
-  }
-  .sec2 {
-    gap: 2rem;
-  }
-  .section2 h2 {
-    font-size: 4rem;
-  }
-  .section2 h4 {
-    font-size: 2.2rem;
-  }
-  .section2 p {
-    font-size: 1.8rem;
-  }
-  .section3 h1 {
-    font-size: 6rem;
-  }
-  .section4 {
-    gap: 2rem;
-  }
-  .sec4-img img {
-    width: 90%;
-    height: 90%;
-  }
-  .sec4-img {
-    display: flex;
-    justify-content: center;
-  }
-  .sec4-div2 {
-    width: 90%;
-    margin-left: 2rem;
-  }
-  .section4 h3 {
-    font-size: 3rem;
-  }
-  .section4 p {
-    font-size: 1.7rem;
-  }
-  .btn-sec4 {
-    width: 12rem;
-    height: 4.5rem;
-  }
-  .section5 h1 {
-    font-size: 6rem;
-  }
-  .sec6-img div img {
-    width: 90%;
-    height: 90%;
-  }
-  .sec6-img div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .sec6 {
-    font-size: 4rem;
-  }
-  .ins-div {
-    font-size: 3.5 rem;
-  }
-  .footer-nav {
-    padding-right: 15rem;
-    font-size: 1.8rem;
-  }
-  span {
-    font-size: 2.5rem;
-    padding-left: 10rem;
-  }
-}
-@media (max-width: 61em) {
-  .img img {
-    width: 90%;
-    height: 90%;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-nav {
-    padding-right: 6rem;
-    font-size: 1.5rem;
-  }
-  .section1 {
-    height: 80%;
-  }
-  .section1 h1 {
-    font-size: 4rem;
-    padding-top: 8rem;
-  }
-  .sec1-div {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 6rem;
-  }
-  .btn-sec1 {
-    width: 9rem;
-    height: 3.5rem;
-  }
-  .btn-buy {
-    width: 9rem;
-    height: 3.5rem;
-    font-size: 1.4rem;
-    margin-top: 4rem;
-  }
-  .sec2 {
-    gap: 1.5rem;
-  }
-  .section2 h2 {
-    font-size: 3rem;
-  }
-  .section2 h4 {
-    font-size: 1.8rem;
-  }
-  .section2 p {
-    font-size: 1.5rem;
-  }
-  .section3 {
-    height: 80%;
-  }
-  .section3 h1 {
-    font-size: 4rem;
-    padding-top: 8rem;
-  }
-  .sec3-div {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 6rem;
-  }
-  .section4 {
-    gap: 1rem;
-  }
-  .sec4-img img {
-    width: 80%;
-    height: 80%;
-  }
-  .sec4-img {
-    display: flex;
-    justify-content: center;
-  }
-  .sec4-div2 {
-    width: 80%;
-    margin-left: 4rem;
-  }
-  .section4 h3 {
-    font-size: 2.4rem;
-  }
-  .section4 p {
-    font-size: 1.4rem;
-  }
-  .btn-sec4 {
-    width: 9rem;
-    height: 3.5rem;
-  }
-  .section5 h1 {
-    font-size: 4rem;
-    padding-top: 8rem;
-  }
-  .section5 {
-    height: 80%;
-    align-items: flex-start;
-  }
-  .sec5-div {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 6rem;
-  }
-  .email {
-    width: 32rem;
-    height: 3.5rem;
-  }
-  .sec6-img {
-    margin: 0;
-  }
-  .sec6-img div img {
-    width: 90%;
-    height: 90%;
-  }
-  .sec6-img div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .sec6 {
-    font-size: 3rem;
-  }
-  .ins-div {
-    font-size: 2.4 rem;
-  }
-  .footer-nav {
-    padding-right: 6rem;
-    font-size: 1.5rem;
-  }
-  span {
-    font-size: 1.8rem;
-    padding-left: 6rem;
-  }
-} */
