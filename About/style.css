@@ -126,7 +126,6 @@ a:active {
   padding: 4rem;
   background-color: rgb(192, 196, 201);
 }
-
 .footer-nav {
   display: flex;
   gap: 3rem;
@@ -193,7 +192,6 @@ a:active {
   .footer-div {
     padding: 2.5rem;
   }
-
   .footer-nav {
     gap: 2.5rem;
     font-size: 1.8rem;
@@ -262,7 +260,6 @@ a:active {
     flex-direction: column;
     padding: 1.5rem;
   }
-
   .footer-nav {
     gap: 2rem;
     font-size: 1.4rem;
