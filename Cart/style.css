@@ -6,26 +6,20 @@
 html {
   font-size: 62.5%;
 }
-body {
-  margin: 0 auto;
-  line-height: 1;
-}
-
 .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3vh 14vh;
 }
 .main-nav {
   display: flex;
   gap: 3rem;
-  padding: 3rem 16rem;
   font-size: 2rem;
   align-items: center;
 }
 span {
   font-size: 3rem;
-  padding: 3rem 16rem;
   font-weight: bold;
 }
 .bag {
@@ -34,82 +28,72 @@ span {
   align-items: center;
 }
 .bag-icon {
-  height: 24px;
-  width: 24px;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 a:link,
 a:visited {
-  color: black;
+  color: #888;
   text-decoration: none;
 }
 a:hover,
 a:active {
   text-decoration: underline;
-  cursor: pointer;
-}
-.sec1-p {
-  font-size: 10rem;
-  color: white;
-  text-align: center;
-  position: absolute;
-  top: 15rem;
-  left: 70rem;
+  color: dodgerblue;
 }
 .section1 {
-  position: relative;
+  background-image: url(shopsec.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  font-size: 10rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5vh;
+  padding: 5vh 0;
 }
 .sec2-icon {
-  width: 24px;
-  height: 24px;
+  height: 2.4rem;
+  width: 2.4rem;
   color: #888;
-  margin-left: 4rem;
 }
 .sec2-a {
   font-size: 1.7rem;
 }
-.search {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
+.search,
 .shop {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.section2 {
-  display: flex;
-  gap: 3rem;
-  padding-top: 5rem;
-  padding-left: 70rem;
-}
-a:link,
-a:visited {
-  color: #888;
-}
-a:hover,
-a:active {
-  cursor: pointer;
-  color: dodgerblue;
-  text-decoration: none;
-}
+
 .section3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
 }
 .shp {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 5vh;
 }
 .div2 {
   display: flex;
+  align-items: center;
 }
 .sec3-h {
   font-size: 2.2rem;
-  padding: 1rem;
-  padding-right: 3rem;
+  padding: 1rem 0;
+  text-align: left;
 }
 .btn {
   border: none;
@@ -124,13 +108,12 @@ a:active {
 }
 .slash {
   font-size: 1.9rem;
-  padding-top: 1rem;
 }
 .crt {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 12rem;
+  margin-top: 12vh;
 }
 .crt-p {
   font-size: 1.8rem;
@@ -138,12 +121,13 @@ a:active {
   color: rgb(86, 52, 104);
 }
 .crt-btn {
-  width: 15rem;
-  height: 5rem;
-  margin-bottom: 10rem;
+  width: 15vh;
+  height: 5vh;
+  margin-bottom: 10vh;
   color: rgb(86, 52, 104);
   border: 2px solid rgb(86, 52, 104);
   cursor: pointer;
+  transition: all 0.3s;
 }
 .crt-btn:hover {
   background-color: rgb(86, 52, 104);
@@ -153,20 +137,122 @@ a:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 7rem;
+  padding: 4rem;
   background-color: rgb(192, 196, 201);
 }
+
 .footer-nav {
-  padding-right: 20rem;
   display: flex;
   gap: 3rem;
   font-size: 2rem;
   text-decoration: underline;
 }
-.ikonlar {
-  width: 24px;
-  height: 24px;
+
+@media only screen and (max-width: 56em) {
+  body {
+    position: relative;
+  }
+  .main-header {
+    padding: 2vh 8vh;
+  }
+  .main-nav {
+    gap: 2.5rem;
+    font-size: 1.8rem;
+  }
+  span {
+    font-size: 2.5rem;
+  }
+  .bag-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .sec1-h {
+    padding-top: 10vh;
+  }
+  .section1 {
+    font-size: 4rem;
+    height: 35vh;
+  }
+  .section2 {
+    gap: 4vh;
+    padding: 4vh 0;
+  }
+  .sec2-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .sec2-a {
+    font-size: 1.8rem;
+  }
+  .crt-btn {
+    width: 12vh;
+    height: 4vh;
+  }
+  .footer-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+  }
+  .footer-nav {
+    gap: 2.5rem;
+    font-size: 1.8rem;
+  }
 }
-footer {
-  position: relative;
+
+@media only screen and (max-width: 37em) {
+  .main-header {
+    padding: 1vh 5vh;
+    flex-direction: column;
+    gap: 0;
+  }
+  span {
+    font-size: 1.8rem;
+  }
+  .main-nav {
+    font-size: 1.5rem;
+  }
+  .bag-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    transform: translateY(-2px);
+  }
+  .section1 {
+    height: 28vh;
+    font-size: 3rem;
+  }
+  .section2 {
+    gap: 3vh;
+    padding: 3vh 0;
+  }
+  .sec2-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+  .sec2-a {
+    font-size: 1.4rem;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .crt {
+    margin-top: 5vh;
+    align-items: center;
+  }
+  .crt-btn {
+    width: 12vh;
+    height: 4vh;
+    font-size: 1rem;
+  }
+  .footer-div {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-nav {
+    font-size: 1.4rem;
+  }
 }
