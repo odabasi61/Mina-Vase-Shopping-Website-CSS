@@ -127,7 +127,6 @@ textarea {
   padding: 4rem;
   background-color: rgb(192, 196, 201);
 }
-
 .footer-nav {
   display: flex;
   gap: 3rem;
@@ -194,7 +193,6 @@ textarea {
   .footer-div {
     padding: 2rem;
   }
-
   .footer-nav {
     gap: 2.5rem;
     font-size: 1.8rem;
