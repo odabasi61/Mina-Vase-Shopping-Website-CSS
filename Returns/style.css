@@ -30,10 +30,11 @@ span {
 .bag-icon {
   height: 2.4rem;
   width: 2.4rem;
+  color: #888;
 }
 a:link,
 a:visited {
-  color: black;
+  color: #888;
   text-decoration: none;
 }
 a:hover,

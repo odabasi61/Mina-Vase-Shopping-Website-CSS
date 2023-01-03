@@ -25,6 +25,7 @@ body {
 span {
   font-size: 3rem;
   font-weight: bold;
+  color: #888;
 }
 .bag {
   display: flex;
@@ -34,10 +35,11 @@ span {
 .bag-icon {
   height: 2.4rem;
   width: 2.4rem;
+  color: #888;
 }
 a:link,
 a:visited {
-  color: black;
+  color: #888;
   text-decoration: none;
 }
 a:hover,
