@@ -143,6 +143,94 @@ button {
   font-size: 2rem;
   text-decoration: underline;
 }
+.assistant {
+  width: 6rem;
+  height: 6rem;
+  color: #e84910;
+  position: fixed;
+  z-index: 10;
+  bottom: 10vh;
+  right: 8vh;
+  transition: all 0.3s;
+}
+
+.assistant:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.popup {
+  background-color: rgb(232, 73, 16, 0.7);
+  width: 20vh;
+  height: 25vh;
+  position: fixed;
+  bottom: 18vh;
+  right: 2vh;
+  display: inline;
+  text-align: center;
+  color: #e6e6e6;
+}
+.popup span {
+  color: #e6e6e6;
+  font-size: 2.5rem;
+}
+.popup p {
+  padding-bottom: 1rem;
+  font-size: 90%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.text button {
+  width: 5vw;
+  height: 4vh;
+  padding: 1rem;
+  color: #e6e6e6;
+  background-color: #e84910;
+  border: none;
+  transition: all 0.3s;
+  font-size: 90%;
+  border-radius: 5px;
+}
+
+.text button:hover {
+  background-color: wheat;
+  color: #e84910;
+  cursor: pointer;
+}
+
+.assist-image {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.assist-image img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.assist-inp {
+  width: 80%;
+  height: 5vh;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+}
 
 @media only screen and (max-width: 75em) {
   span {
@@ -296,9 +384,33 @@ button {
   .footer-nav {
     gap: 2rem;
   }
+  .assistant {
+    width: 4rem;
+    height: 4rem;
+    bottom: 10vh;
+    right: 8vh;
+  }
+  .popup {
+    width: 17vh;
+    height: 22vh;
+    bottom: 18vh;
+    right: 2vh;
+  }
+  .popup span {
+    font-size: 1.8rem;
+  }
+  .assist-image {
+    gap: 0.5rem;
+  }
+  .text button {
+    width: 6vw;
+    height: 3vh;
+    padding: 0.5rem;
+    font-size: 90%;
+  }
 }
 
-@media only screen and (max-width: 56em) {
+@media only screen and (max-width: 37.5em) {
   span {
     font-size: 2rem;
   }
@@ -343,5 +455,35 @@ button {
   .footer-div {
     padding: 1rem;
     flex-direction: column;
+  }
+  .assistant {
+    width: 3rem;
+    height: 3rem;
+    bottom: 8vh;
+    right: 8vh;
+  }
+  .popup {
+    width: 15vh;
+    height: 20vh;
+    bottom: 13vh;
+    right: 2vh;
+  }
+  .popup span {
+    font-size: 1.6rem;
+  }
+  .text {
+    gap: 1rem;
+  }
+  .text button {
+    width: 8vw;
+    padding: 0.5rem;
+    font-size: 90%;
+  }
+  .assist-image {
+    gap: 0.5rem;
+  }
+  .assist-inp {
+    width: 80%;
+    height: 5vh;
   }
 }

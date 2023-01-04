@@ -85,6 +85,29 @@
   .footer-nav {
     font-size: 1.8rem;
   }
+  .assistant {
+    width: 4rem;
+    height: 4rem;
+    bottom: 10vh;
+    right: 8vh;
+  }
+  .popup {
+    width: 17vh;
+    height: 22vh;
+    bottom: 18vh;
+    right: 2vh;
+  }
+  .popup span {
+    font-size: 1.8rem;
+  }
+  .assist-image {
+    gap: 0.5rem;
+  }
+  .text button {
+    width: 6vw;
+    padding: 0.5rem;
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-width: 56em) {
@@ -306,13 +329,13 @@
   .assistant {
     width: 3rem;
     height: 3rem;
-    bottom: 15vh;
+    bottom: 8vh;
     right: 8vh;
   }
   .popup {
     width: 15vh;
     height: 20vh;
-    bottom: 22vh;
+    bottom: 13vh;
     right: 2vh;
   }
   .popup span {
@@ -332,12 +355,5 @@
   .assist-inp {
     width: 80%;
     height: 5vh;
-  }
-
-  textarea {
-    resize: none;
-    outline: none;
-    width: 100%;
-    height: 8rem;
   }
 }

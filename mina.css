@@ -235,7 +235,7 @@ h3 {
   color: #e84910;
   position: fixed;
   z-index: 10;
-  bottom: 15vh;
+  bottom: 10vh;
   right: 8vh;
   transition: all 0.3s;
 }
@@ -250,7 +250,7 @@ h3 {
   width: 20vh;
   height: 25vh;
   position: fixed;
-  bottom: 22vh;
+  bottom: 18vh;
   right: 2vh;
   display: inline;
   text-align: center;
@@ -258,6 +258,7 @@ h3 {
 }
 .popup span {
   color: #e6e6e6;
+  font-size: 2.5rem;
 }
 .popup p {
   padding-bottom: 1rem;
@@ -278,8 +279,8 @@ h3 {
 }
 
 .text button {
-  width: 3vw;
-  padding: 0.5rem;
+  width: 5vw;
+  padding: 1rem;
   color: #e6e6e6;
   background-color: #e84910;
   border: none;

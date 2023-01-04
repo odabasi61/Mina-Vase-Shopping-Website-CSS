@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Returns Policy</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="main-header">
@@ -76,6 +84,21 @@
       </div>
     </section>
 
+    <div class="popup hidden">
+      <div class="assist-image">
+        <img src="../img/assist.png" alt="" />
+        <span>Hello</span>
+      </div>
+      <p>I'm your assistant. How can i help you?</p>
+      <div class="text">
+        <textarea class="assist-inp" name="" id=""></textarea>
+        <button type="submit">Send</button>
+      </div>
+    </div>
+    <button>
+      <ion-icon class="assistant" name="chatbox-ellipses-outline"></ion-icon>
+    </button>
+
     <footer>
       <div class="footer-div">
         <a href=""><span class="f-s">MINA</span></a>
@@ -86,5 +109,6 @@
         </nav>
       </div>
     </footer>
+    <script src="../script.js"></script>
   </body>
 </html>
