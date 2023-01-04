@@ -302,4 +302,42 @@
   .footer-nav {
     font-size: 1.3rem;
   }
+
+  .assistant {
+    width: 3rem;
+    height: 3rem;
+    bottom: 15vh;
+    right: 8vh;
+  }
+  .popup {
+    width: 15vh;
+    height: 20vh;
+    bottom: 22vh;
+    right: 2vh;
+  }
+  .popup span {
+    font-size: 1.6rem;
+  }
+  .text {
+    gap: 1rem;
+  }
+  .text button {
+    width: 8vw;
+    padding: 0.5rem;
+    font-size: 90%;
+  }
+  .assist-image {
+    gap: 0.5rem;
+  }
+  .assist-inp {
+    width: 80%;
+    height: 5vh;
+  }
+
+  textarea {
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+  }
 }

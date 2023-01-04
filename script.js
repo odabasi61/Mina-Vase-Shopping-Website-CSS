@@ -1,5 +1,12 @@
 "use strict";
 
+const assist = document.querySelector(".assistant");
+const pop = document.querySelector(".popup");
+
+assist.addEventListener("click", function () {
+  pop.classList.toggle("hidden");
+});
+
 function increase() {
   let result = document.getElementById("result");
   result.value = Number(result.value) + 1;
