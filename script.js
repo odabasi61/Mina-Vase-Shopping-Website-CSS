@@ -19,7 +19,7 @@ function decrease() {
 
 let cartSpan = document.querySelector(".cart-s");
 const addToCart = document.querySelector(".add");
-cartSpan.textContent = 0;
+
 addToCart.addEventListener("click", function () {
-  cartSpan.textContent += result.value;
+  cartSpan.textContent = Number(cartSpan.textContent) + 1;
 });
