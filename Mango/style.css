@@ -3,6 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+.basket {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cart-s {
+  font-size: 1.8rem;
+}
+.rslt {
+  background-color: aliceblue;
+}
+input {
+  width: 2rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+}
+form {
+  width: fit-content;
+  background-color: rgb(201, 201, 201);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
 html {
   font-size: 62.5%;
 }

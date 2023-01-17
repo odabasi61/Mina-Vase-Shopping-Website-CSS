@@ -1,5 +1,6 @@
 "use strict";
 
+// assistant poup
 const assist = document.querySelector(".assistant");
 const pop = document.querySelector(".popup");
 
@@ -7,30 +8,27 @@ assist.addEventListener("click", function () {
   pop.classList.toggle("hidden");
 });
 
+// add to cart
+let result = document.getElementById("result");
+
 function increase() {
-  let result = document.getElementById("result");
   result.value = Number(result.value) + 1;
-  if (result.value >= 0) {
-    addToCart.classList.remove("allow");
+  if (result.value >= 1) {
+    addToCart.disabled = false;
   }
 }
 
 function decrease() {
-  let result = document.getElementById("result");
   result.value = Number(result.value) - 1;
-  if (result.value < 0) {
-    addToCart.classList.add("allow");
+  if (result.value < 1) {
+    addToCart.disabled = true;
   }
 }
 
 let cartSpan = document.querySelector(".cart-s");
 const addToCart = document.querySelector(".add");
-cartSpan.textContent = Number(0);
+cartSpan.textContent = 0;
 
 addToCart.addEventListener("click", function () {
   cartSpan.textContent = Number(result.value);
-  document.getElementById("result").value = 0;
-  if (result.value < 0) {
-    document.getElementById("result").value = 0;
-  }
 });

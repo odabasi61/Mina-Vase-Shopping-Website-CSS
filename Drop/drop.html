@@ -37,7 +37,11 @@
               d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
             />
           </svg>
-          <a class="anime" href="../Cart/cart.html">Cart (0)</a>
+          <a class="anime" href="../Cart/cart.html"
+            >Cart (
+            <span class="cart-s"></span>
+            )</a
+          >
         </div>
       </nav>
     </header>
@@ -94,7 +98,14 @@
         <h1>'Drop' Vase</h1>
         <a href="../Shop/shop.html">Back to catalog</a>
         <span class="div2-s">$49.99</span>
-        <button>Add To Bag</button>
+        <div class="basket">
+          <button class="add">Add To Bag</button>
+          <form action="">
+            <input type="button" onclick="increase()" value="+" />
+            <input class="rslt" type="button" id="result" value="1" />
+            <input type="button" onclick="decrease()" value="-" />
+          </form>
+        </div>
         <h2>Product Details</h2>
         <p class="p1">
           Gorgeous textured bud vase with a matte ivory glaze. Try using a few
